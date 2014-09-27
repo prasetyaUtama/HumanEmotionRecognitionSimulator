@@ -1,0 +1,33 @@
+﻿Build started 9/27/2014 8:52:24 AM.
+     1>Project "D:\Project\Skripsi\HumanEmotionRecognition\HumanEmotionRecognition\SourceCode\HumanEmotionRecognition\HumanEmotionRecognition\HumanEmotionRecognition.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv\build\include\opencv /IC:\opencv\build\include /I"C:\GTK3\include\gtk-3.0" /I"C:\GTK3\include\glib-2.0" /I"C:\GTK3\lib\glib-2.0\include" /IC:\GTK3\include\cairo /I"C:\GTK3\include\pango-1.0" /I"C:\GTK3\include\gtk-3.0\gtk" /I"C:\GTK3\include\gdk-pixbuf-2.0" /I"C:\GTK3\include\atk-1.0" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\HumanEmotionRecognition.pch" /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt MainWindow.cpp
+         MainWindow.cpp
+     1>MainWindow.cpp(181): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Project\Skripsi\HumanEmotionRecognition\HumanEmotionRecognition\SourceCode\HumanEmotionRecognition\Release\HumanEmotionRecognition.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\GTK3\lib /LIBPATH:C:\opencv\build\x86\vc11\lib opencv_core244.lib opencv_imgproc244.lib opencv_highgui244.lib opencv_ml244.lib opencv_video244.lib opencv_features2d244.lib opencv_calib3d244.lib opencv_objdetect244.lib opencv_contrib244.lib opencv_legacy244.lib opencv_flann244.lib "gtk-win32-3.0.lib" "gdk-win32-3.0.lib" "atk-1.0.lib" "gdk_pixbuf-2.0.lib" "pangowin32-1.0.lib" "pangocairo-1.0.lib" "pango-1.0.lib" cairo.lib "gthread-2.0.lib" "gobject-2.0.lib" "gmodule-2.0.lib" "glib-2.0.lib" user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Project\Skripsi\HumanEmotionRecognition\HumanEmotionRecognition\SourceCode\HumanEmotionRecognition\Release\HumanEmotionRecognition.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Project\Skripsi\HumanEmotionRecognition\HumanEmotionRecognition\SourceCode\HumanEmotionRecognition\Release\HumanEmotionRecognition.lib" /MACHINE:X86 /SAFESEH Release\ActivationFunction.obj
+         Release\DataSet.obj
+         Release\ELM.obj
+         Release\FacialFeatures.obj
+         Release\Features.obj
+         Release\HumanEmotionRecognition.obj
+         Release\ImageBase.obj
+         Release\KernelGeneration.obj
+         Release\kNNC.obj
+         Release\MainWindow.obj
+         Release\MLP.obj
+         Release\Network.obj
+         Release\SigmoidActivationFunction.obj
+         Release\stdafx.obj
+         Release\SubSpace.obj
+         Release\SVMC.obj
+         Release\TanhActivationFunction.obj
+            Creating library D:\Project\Skripsi\HumanEmotionRecognition\HumanEmotionRecognition\SourceCode\HumanEmotionRecognition\Release\HumanEmotionRecognition.lib and object D:\Project\Skripsi\HumanEmotionRecognition\HumanEmotionRecognition\SourceCode\HumanEmotionRecognition\Release\HumanEmotionRecognition.exp
+         Generating code
+         Finished generating code
+         HumanEmotionRecognition.vcxproj -> D:\Project\Skripsi\HumanEmotionRecognition\HumanEmotionRecognition\SourceCode\HumanEmotionRecognition\Release\HumanEmotionRecognition.exe
+     1>Done Building Project "D:\Project\Skripsi\HumanEmotionRecognition\HumanEmotionRecognition\SourceCode\HumanEmotionRecognition\HumanEmotionRecognition\HumanEmotionRecognition.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.63

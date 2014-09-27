@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{9621fa1e-5080-4739-9af7-7367730fda62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{5920df2c-df87-4b97-ba8e-6d75d5189320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HER">
+      <UniqueIdentifier>{f329ebce-560e-40c7-987b-b0c59e97df45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HER\API">
+      <UniqueIdentifier>{fe394cd7-dcde-4fe4-a158-fdee91b56271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HER">
+      <UniqueIdentifier>{a04220c6-fcbb-4bd7-9f68-a242d01b8697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HER\API">
+      <UniqueIdentifier>{38f4e07d-b207-4c38-8411-26000568fa61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HER\API\Network">
+      <UniqueIdentifier>{db826ad3-a6b7-4e70-873d-2d897e511a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HER\API\Network">
+      <UniqueIdentifier>{10de35cc-dae7-4c22-a16c-6c93224fcce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HER\API\Network\ActivationFunction">
+      <UniqueIdentifier>{60f1b142-0ac3-426f-a058-a21e37c04ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HER\API\Network\ActivationFunction">
+      <UniqueIdentifier>{2bb1500c-9f46-4db5-9808-d02cafb4b387}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FacialFeatures.h">
+      <Filter>Header Files\HER\API</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageBase.h">
+      <Filter>Header Files\HER\API</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelGeneration.h">
+      <Filter>Header Files\HER\API</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSet.h">
+      <Filter>Header Files\HER\API\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SigmoidActivationFunction.h">
+      <Filter>Header Files\HER\API\Network\ActivationFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivationFunction.h">
+      <Filter>Header Files\HER\API\Network\ActivationFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="Features.h">
+      <Filter>Header Files\HER\API\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Header Files\HER\API\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="TanhActivationFunction.h">
+      <Filter>Header Files\HER\API\Network\ActivationFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="ELM.h">
+      <Filter>Header Files\HER\API\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="MLP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SVMC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SubSpace.h">
+      <Filter>Header Files\HER\API</Filter>
+    </ClInclude>
+    <ClInclude Include="kNNC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageBase.cpp">
+      <Filter>Source Files\HER\API</Filter>
+    </ClCompile>
+    <ClCompile Include="FacialFeatures.cpp">
+      <Filter>Source Files\HER\API</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanEmotionRecognition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelGeneration.cpp">
+      <Filter>Source Files\HER\API</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSet.cpp">
+      <Filter>Source Files\HER\API\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivationFunction.cpp">
+      <Filter>Source Files\HER\API\Network\ActivationFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="SigmoidActivationFunction.cpp">
+      <Filter>Source Files\HER\API\Network\ActivationFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="Features.cpp">
+      <Filter>Source Files\HER\API\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Source Files\HER\API\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="TanhActivationFunction.cpp">
+      <Filter>Source Files\HER\API\Network\ActivationFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="ELM.cpp">
+      <Filter>Source Files\HER\API\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="MLP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVMC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SubSpace.cpp">
+      <Filter>Source Files\HER\API</Filter>
+    </ClCompile>
+    <ClCompile Include="kNNC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
