@@ -41,7 +41,7 @@ void ELM::train(double C){
 	
 	hiddenLayerTemp = (identity / C )+ (H * H.t());
 	//invert(hiddenLayerTemp,hiddenLayerTempInv, DECOMP_SVD);
-	hiddenLayerTempInv = hiddenLayerTemp.inv(DECOMP_SVD);
+	hiddenLayerTempInv = hiddenLayerTemp.inv(DECOMP_CHOLESKY);
 	clock_t tStart = clock();
 	hiddenLayerWeight = hiddenLayerTempInv * H * ELM::network->getDesiredOutput().t();
 	double timeExecution = (double)(clock() - tStart)/CLOCKS_PER_SEC;
